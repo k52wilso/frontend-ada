@@ -1,0 +1,48 @@
+.variable {
+    background-color: #81f7d7;
+    display: inline-block;
+    padding: 0 10px;
+    border-radius: 10px;
+    position: relative;
+    .scope_div {
+        display: flex;
+        align-items: center;
+        &:hover {
+            cursor: pointer;
+        }
+        .scope {
+            color: #185746;
+            font-weight: bold;
+            margin: 0 5px;
+        }
+        .arrow_down {
+            display: inline-block;
+            width: 0; 
+            height: 0; 
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-top: 8px solid #185746;
+        }
+    }
+    .dropdown {
+        position: absolute;
+        width: calc(100%);
+        left: 0;
+        background: #185746;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        padding: 0 10px;
+        &:hover {
+            cursor: pointer;
+            background: #81f7d7;
+            .name {
+                color: #185746;
+            }
+        }
+        .name {
+            color: #81f7d7;
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.search {
+    background-color: #2e86de;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+    input {
+        border: none;
+        border-radius: 5px;
+        background-color: #fff;
+        outline: none;
+        padding: 10px 5px;
+        width: 80%;
+    }
+}
